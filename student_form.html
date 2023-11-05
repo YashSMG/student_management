@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Student Form</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<div align="center">
+		<h1>CRUD Operation using JS</h1>
+	</div>
+	<div class="main">
+	<div class="form_container">
+		<form autocomplete="off">
+			<h2 align="center" style="margin-bottom: 30px;">Student Details</h2>
+			<div>
+				<label for="name">Name</label>
+				<input type="text" name="student_name" id="username">
+			</div>
+			<div>
+				<label>email</label>
+				<input type="text" name="student_email" id="email">
+			</div>
+			<div>
+				<label for="phoneno">Phone no</label>
+				<input type="text" name="student_phno" id="phoneno">
+			</div>
+			<div>
+				<label for="city">City</label>
+				<input type="text" name="student_native" id="city">
+			</div>
+			<div class="btn">
+				<input type="button" value="SUBMIT" onclick="enterData()">
+				<input type="reset" value="RESET">
+			</div>
+		</form>
+	</div>
+
+	<div class="data_container">
+		<h2 align="center">Student Data</h2>
+		<table 
+			id="studentList"
+			width="80%"
+			border="1px"
+			cellspacing="0px">
+			<thead>
+				<tr>
+					<td>Name</td>
+					<td>Email</td>
+					<td>Phone No</td>
+					<td>City</td>
+					<td>Actions</td>
+				</tr>
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+	</div>
+	<script type="text/javascript" src="crud.js"></script>
+</body>
+</html>

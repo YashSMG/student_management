@@ -1,0 +1,68 @@
+*{
+			margin: 0px;
+			padding: 0px;
+/*			box-sizing: border-box;*/
+		}
+		body{
+			background-color: lightgrey;
+		}
+		.main{
+			display: flex;
+			width: 100%;
+		}
+		.form_container{
+			width: 200px;
+			height: 380px;
+			background-color: white;
+			flex: 1;
+			margin-top: 150px;
+			margin-left: 40px;
+			padding: 20px;
+			border-radius: 15px;
+		}
+		.data_container{
+			width: 60%;
+			background-color: white;
+			margin: 40px;
+			margin-top: 150px;
+			height: auto;
+			padding: 20px;
+			border-radius: 15px;
+		}
+		input{
+			width: 100%;
+			outline: none;
+			background-color: transparent;
+			margin-top: 10px;
+			border: none;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+		.btn input{
+			width: 30%;
+			height: 30px;
+			margin-top: 50px;
+			margin-left: 40px;
+/*			margin: 10px;*/
+			border: none;
+			background-color: black;
+			color: white;
+			border-radius: 8px;
+			cursor: pointer;
+		}
+		.btn input:hover{
+			transform: scale(0.9);
+			box-shadow: 0px 8px 12px grey;
+		}
+		#studentList{
+			margin-top: 20px;
+			margin-left: 10%;
+
+		}
+		thead{
+			padding-left: 10px;
+			background-color: black;
+			color: white;
+			height: 20px;
+			
+		}
