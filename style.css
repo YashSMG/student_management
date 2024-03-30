@@ -6,6 +6,11 @@
 		body{
 			background-color: lightgrey;
 		}
+		.logo{
+			margin-top: 30px;
+			margin-left: 700px;
+			
+		}
 		.main{
 			display: flex;
 			width: 100%;
@@ -15,7 +20,7 @@
 			height: 380px;
 			background-color: white;
 			flex: 1;
-			margin-top: 150px;
+			margin-top: 50px;
 			margin-left: 40px;
 			padding: 20px;
 			border-radius: 15px;
@@ -24,7 +29,7 @@
 			width: 60%;
 			background-color: white;
 			margin: 40px;
-			margin-top: 150px;
+			margin-top: 50px;
 			height: auto;
 			padding: 20px;
 			border-radius: 15px;
@@ -65,4 +70,7 @@
 			color: white;
 			height: 20px;
 			
+		}
+		.footer{
+			margin-bottom: 0px;
 		}
