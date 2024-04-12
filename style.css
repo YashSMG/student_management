@@ -1,10 +1,16 @@
+
 *{
 			margin: 0px;
 			padding: 0px;
 /*			box-sizing: border-box;*/
 		}
 		body{
-			background-color: lightgrey;
+			background-color: rgb(166, 242, 242, 1.0);
+		}
+		.logo{
+			margin-top: 30px;
+			margin-left: 700px;
+			
 		}
 		.main{
 			display: flex;
@@ -15,7 +21,7 @@
 			height: 380px;
 			background-color: white;
 			flex: 1;
-			margin-top: 150px;
+			margin-top: 50px;
 			margin-left: 40px;
 			padding: 20px;
 			border-radius: 15px;
@@ -24,7 +30,7 @@
 			width: 60%;
 			background-color: white;
 			margin: 40px;
-			margin-top: 150px;
+			margin-top: 50px;
 			height: auto;
 			padding: 20px;
 			border-radius: 15px;
@@ -45,7 +51,7 @@
 			margin-left: 40px;
 /*			margin: 10px;*/
 			border: none;
-			background-color: black;
+			background-color: rgb(48, 48, 48, 1.0);
 			color: white;
 			border-radius: 8px;
 			cursor: pointer;
@@ -61,8 +67,23 @@
 		}
 		thead{
 			padding-left: 10px;
-			background-color: black;
+			background-color: rgb(48, 48, 48, 1.0);
 			color: white;
 			height: 20px;
 			
+		}
+		.footer{
+			margin-top: 83px;
+			background-color: rgb(48, 48, 48, 1.0);
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: white;
+		}
+		.footer a{
+			color: whitesmoke;
+			text-decoration: none;
+		}
+		.footer_content{
+			margin-right: 40px;
+			text-align: right;
 		}
