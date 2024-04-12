@@ -12,6 +12,11 @@
 			margin-left: 700px;
 			
 		}
+		.logo{
+			margin-top: 30px;
+			margin-left: 700px;
+			
+		}
 		.main{
 			display: flex;
 			width: 100%;
@@ -73,6 +78,7 @@
 			
 		}
 		.footer{
+<<<<<<< HEAD
 			margin-top: 83px;
 			background-color: rgb(48, 48, 48, 1.0);
 			padding-top: 10px;
@@ -87,3 +93,7 @@
 			margin-right: 40px;
 			text-align: right;
 		}
+=======
+			margin-bottom: 0px;
+		}
+>>>>>>> e5cc41e18dd50925d8be2a02a00a869d2688af39
